@@ -111,3 +111,29 @@
     display: inline-block;
     margin-left: 18px;
 }
+/*Margin TOP*/
+.margin {
+    margin-top: 60px;
+}
+/*Load More BOX*/
+.load-more{
+    background-color: #FF7A00;
+    width: 190px;
+    height: 70px;
+    margin: 0 auto;
+    margin-top: 70px;
+    text-align: center;
+    padding: 25px;
+}
+.load--more {
+    font-weight: bolder;
+    font-size: 16px;
+    color: white;
+}
+/*Background Section*/
+.background-section{
+    width: 100%;
+    height: 266px;
+    background-color: #181C28;
+    margin-top: 135px;
+}
