@@ -1,0 +1,90 @@
+/*Position*/
+.relative{
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+/*Display-Inline Block*/
+.display{
+    display: inline-block;
+}
+/*Vertical Align Middle*/
+.middle{
+    vertical-align: middle;
+}
+/*Header Style*/
+.fixed{
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    background-color: white;
+}
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+.navigation{
+    margin-left: 120px;
+}
+.nav-li{
+    margin: 0 25px;
+}
+.nav-a{
+    text-transform: uppercase;
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+    transition: all 0.8s;
+}
+.nav-a:hover{
+    color: brown;
+}
+/*Banner Section Style*/
+.banner-container{
+    position: relative;
+}
+.section-image{
+    margin-top: 96px;
+}
+.h-div{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+.section-h1{
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+.section-h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+}
+/*Section 2 Style*/
+
+.float-right {
+ float: right;
+}
+.float-left{
+    float: left;
+}
+.h3-section{
+   font-size: 22px;
+   color: #FF7A00;
+   font-weight: 800;
+   margin: 90px 0 90px 0;
+}
+.left-block{
+    margin-right: 20px;
+}
+.clear::after{
+    content: " ";
+    clear: both;
+    display: block;
+}
+.Container-h1{
+    font-size: 36px;
+    font-weight: bold;
+}
