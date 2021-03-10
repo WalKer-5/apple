@@ -84,7 +84,30 @@
     clear: both;
     display: block;
 }
+.small-container{
+    width: 563px;
+}
 .Container-h1{
     font-size: 36px;
     font-weight: bold;
+}
+.para-cont{
+    margin-top: 25px;
+    width: 636px;
+    color: #7B7B7B;
+    font-size: 16px;
+}
+.read-more{
+    margin-top: 15px;
+    color: #FF7A00;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.read-more::after {
+    content: " ";
+    height: 4px;
+    width: 47px;
+    background-color: #FF7A00;
+    display: inline-block;
+    margin-left: 18px;
 }
